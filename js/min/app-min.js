@@ -1,1 +1,1 @@
-$(document).ready(function(){$("ul.nav-list li:not(.current-section)").click(function(){var t=$(this).find("a").text();window.alert("***Site redirects to the ["+t+"] page***")})});
+$(document).ready(function(){$("ul.nav-list li:not(.current-section)").click(function(){var t=$(this).find("a").text();window.alert("***Site redirects to the ["+t+"] page***")}),$(".selection-container i").click(function(){$(this).toggleClass("exact-date")}),$("select.date").click(function(){var t=$(this).find("option").text();window.alert("***Opens for datepicker for ["+t+"]***")})});
