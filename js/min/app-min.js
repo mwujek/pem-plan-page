@@ -1,0 +1,1 @@
+$(document).ready(function(){$("ul.nav-list li:not(.current-section)").click(function(){var t=$(this).find("a").text();window.alert("***Site redirects to the ["+t+"] page***")})});
